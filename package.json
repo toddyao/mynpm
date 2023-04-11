@@ -1,0 +1,25 @@
+{
+  "name": "mynpm",
+  "version": "1.0.1",
+  "description": "Build the project file directory",
+  "files": ["src"],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddyao/mynpm.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "study"
+  ],
+  "author": "todd.yao@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toddyao/mynpm/issues"
+  },
+  "homepage": "https://github.com/toddyao/mynpm#readme"
+}
