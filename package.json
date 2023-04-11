@@ -2,10 +2,13 @@
   "name": "mynpm",
   "version": "1.0.1",
   "description": "Build the project file directory",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/toddyao/mynpm/issues"
   },
-  "homepage": "https://github.com/toddyao/mynpm#readme"
+  "homepage": "https://github.com/toddyao/mynpm#readme",
+  "dependencies": {
+    "command": "^0.0.5"
+  }
 }
