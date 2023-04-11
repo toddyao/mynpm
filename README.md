@@ -1,0 +1,2 @@
+# mynpm
+node javascript study
